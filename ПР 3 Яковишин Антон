@@ -1,0 +1,27 @@
+# ПР 3 методичка.ру
+a = int(input())
+b = int(input())
+c = int(input())
+sp = list(range(1,4))
+if a in sp:
+    print(a)
+if b in sp:
+    print(b)
+if c in sp:
+    print(c)
+# ПР 3 зад 7.ру
+year=int(input('Введите год:'))
+if ( year % 4 == 0 and year % 100 !=0) or year % 400 ==0:
+    print('Год високосный')
+else:
+    print('Год не високосный')
+# ПР 3 задание 4.ру
+a = int(input('Введите число'))
+k = 0
+for i in range(2,a // 2+1):
+              if (a % i == 0):
+                  k = k+1
+if(k<=0):
+    print("Число простое")
+else:
+    print("Число не является простым")
