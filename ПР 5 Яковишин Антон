@@ -1,0 +1,17 @@
+# Задание 9.
+s = "Пример строки"
+words = s.split()
+num_words = len(words)
+print(num_words)
+# Задание 12.
+str = "Моя мама очень красивая"
+for m in str.split():
+    if m.endswith("я"):
+        print(m)
+# Задание 15.
+s = "Таня Тапочкина танцует с Тимой Топытжкиным танго"
+count = 0
+for l in s:
+    if l=="т":
+        count +=1
+print(count)
