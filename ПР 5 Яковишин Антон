@@ -15,3 +15,23 @@ for l in s:
     if l=="т":
         count +=1
 print(count)
+#6 Задание.
+s = "aasaaaahhwhaa"
+count = len(s) - len(s.replace("a", ""))
+print(s)
+print(str(count))
+# 10 Задание.
+s = "My name is Anton"
+print(s.title())
+# 14 Задание.
+s = "Я Антон и я безумно увлекаюсь футболом"
+for l in s.split()^:
+    if(l.startswith("а") or (endswith("я")):
+       print(l)
+# 5 Задание.
+s = "My brother is name Timophei"
+print(s.lower())
+# 2 Задание.
+s = "::::;№;:".split(":")
+print("%".join(s))
+print(len(s)-1)
