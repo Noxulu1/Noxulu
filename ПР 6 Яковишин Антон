@@ -1,0 +1,55 @@
+# Вариант 1 Задание 1
+m = list() 
+
+for i in range(randint(2,5)):
+    print('Введите',i+1,'элемент массива')
+    m.append(int(input()))
+m.reverse()
+
+print('Полученный массив в обратном порядке:\n',m)
+print('Максимальный элемент -->',max(m))
+
+# Вариант 1 Задание 2
+m = list()
+cr_arifm = 0
+
+for i in range(randint(5,10)):
+    print('Введите',i+1,'действительный элемент массива')
+    m.append(int(input()))
+
+for i in range(len(m)):
+    cr_arifm += m[i]
+
+cr_arifm /= len(m)
+
+for i in range(len(m)):
+    if m[i] == '0':
+        m[i] = cr_arifm
+
+print('Полученныый массив:\n',m)
+
+# Вариант 2 Задание 1
+m = list()
+
+for i in range(randint(2,5)):
+    print('Введите',i+1,'элемент массива')
+    m.append(int(input()))
+
+print('Индекс минимального элемента:',m.index(min(m)))
+
+# Вариант 2 Задание 2
+m = list()
+low = list()
+up = list()
+
+for i in range(randint(2,5)):
+    print('Введите',i+1,'элемент массива')
+    m.append(int(input()))
+
+for i in range(len(m)):
+    if m[i] > 0:
+        up.append(m[i])
+    else:
+        low.append(m[i])
+
+print('Массив с элементами больше "0":',up,'\n','Массив с элементами меньше или равно "0":',low)
