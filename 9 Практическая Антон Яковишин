@@ -1,0 +1,23 @@
+# 9 Практика БЛОК A.1 задание
+def calc_expression(x,n):
+    if n == 0:
+        return 1
+    return ( x ** n)/ factorial(n) + calc_expression(x,n - 1)
+
+def factorial(n):
+    if n == 0 or n == 1:
+        return 1
+    return n * factorial(n -1 )
+
+x = int(input('ВВедите значение x: '))
+n = int(input('ВВедите значение n: '))
+# 9 Практика БЛОК B.2 задание
+sequence = []
+while True:
+    num = int(input())  # Ввод числа с клавиатуры
+    if num == 0:
+        break  # Если введен 0, завершить ввод
+    sequence.append(num)
+
+result = find_second_largest(sequence)
+print(result)
