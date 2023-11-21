@@ -11,13 +11,8 @@ def factorial(n):
 
 x = int(input('ВВедите значение x: '))
 n = int(input('ВВедите значение n: '))
-# 9 Практика БЛОК B.2 задание
-sequence = []
-while True:
-    num = int(input())  # Ввод числа с клавиатуры
-    if num == 0:
-        break  # Если введен 0, завершить ввод
-    sequence.append(num)
+# 9 Практика БЛОК B.3 задание
+def f():
+    s = [int(i) for i in input('Введите данные:').split() if int(i)]
+    print(*s[::2])
 
-result = find_second_largest(sequence)
-print(result)
