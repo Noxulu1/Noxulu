@@ -1,7 +1,7 @@
 from tkinter import Tk, ttk
 from tkinter import messagebox, filedialog
 
-app_name = "ФИО автора"
+app_name = "Яковишин Антон Максимович"
 root = Tk()
 root.title(app_name)
 
