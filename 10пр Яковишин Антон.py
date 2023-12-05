@@ -13,7 +13,7 @@ def write_matrix(file_name, matrix):
 
 # Определите путь к файлу ввода и файлу вывода
 input_file_name = 'C:/Пользователи/yakov/OneDrives/Яковишин Антон Максимович ПР10_УБ_31_vvod.txt'
-output_file_name = 'C:/Пользователи/yakov/OneDrives/Яковишин Антон Максимович ПР10_УБ_31_vvod.txt'
+output_file_name = 'C:/Пользователи/yakov/OneDrives/Яковишин Антон Максимович ПР10_УБ_31_vivod.txt'
 
 # Считайте матрицу из файла ввода
 matrix = read_matrix(input_file_name)
