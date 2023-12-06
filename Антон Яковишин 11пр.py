@@ -69,7 +69,7 @@ def show_message(): # определяем функцию show_message для р
     if not selected_options: # если список выбранных опций пуст.
         messagebox.showinfo("Выбор", "Вы ничего не выбрали")
     else:
-        message = "Вы выбрали: " + ", ".join(selected_options)
+        message = "Вы выбрали: " + ", ".join(selected_options) # формируем сообщение о выбранных опциях.
         messagebox.showinfo("Выбор", message)
 
 checkbox1_var = ttk.BooleanVar() # создаем переменную типа BooleanVar для первого чекбокса.
