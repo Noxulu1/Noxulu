@@ -18,7 +18,7 @@ output_file_name = 'C:/Пользователи/yakov/OneDrives/Яковишин
 
 matrix = read_matrix(input_file_name)
 
-# Выполняем операции над матрицей 
+
 result_matrix = [[sum(row)] for row in matrix]
 
 
